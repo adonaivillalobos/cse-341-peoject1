@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adonaivillalobos/cse-341-peoject1.git"
+    "url": "git+https://github.com/adonaivillalobos/cse-341-project1.git"
   },
   "keywords": [
     "Adonai",
@@ -17,7 +17,7 @@
   "author": "Adonai Villalobos",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/adonaivillalobos/cse-341-peoject1/issues"
+    "url": "https://github.com/adonaivillalobos/cse-341-project1/issues"
   },
-  "homepage": "https://github.com/adonaivillalobos/cse-341-peoject1#readme"
+  "homepage": "https://github.com/adonaivillalobos/cse-341-project1#readme"
 }
