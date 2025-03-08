@@ -1,0 +1,23 @@
+{
+  "name": "cse-341-peoject1",
+  "version": "1.0.0",
+  "description": "My First Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adonaivillalobos/cse-341-peoject1.git"
+  },
+  "keywords": [
+    "Adonai",
+    "Villalobos"
+  ],
+  "author": "Adonai Villalobos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adonaivillalobos/cse-341-peoject1/issues"
+  },
+  "homepage": "https://github.com/adonaivillalobos/cse-341-peoject1#readme"
+}
