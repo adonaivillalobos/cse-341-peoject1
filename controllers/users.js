@@ -1,5 +1,5 @@
 const mongodb = require('../data/database.js');
-const { ObjectId } = require('mongodb');  // Corrected import
+const { ObjectId } = require('mongodb');
 
 const getALL = async (req, res) => {
     const result = await mongodb.getDatabase().db().collection('users').find();
@@ -13,15 +13,15 @@ const getALL = async (req, res) => {
 
 const getSingle = async (req, res) => {
     try {
-        const userID = new ObjectId(req.params.id);  // Correct usage of ObjectId
-        const user = await mongodb.getDatabase().db().collection('users').findOne({ _id: userID });  // Use findOne to get a single document
+        const userID = new ObjectId(req.params.id);
+        const user = await mongodb.getDatabase().db().collection('users').findOne({ _id: userID });
 
         if (!user) {
             return res.status(404).json({ message: "User not found" });
         }
 
         res.setHeader('Content-Type', 'application/json');
-        res.status(200).json(user);  // Returning the user object directly
+        res.status(200).json(user);
     } catch (error) {
         res.status(500).json({ message: "Error retrieving user", error });
     }
