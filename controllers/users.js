@@ -29,8 +29,6 @@ const getSingle = async (req, res) => {
     }
 };
 
-
-
 const createUser = async (req, res) => { 
     //#swagger.tags = ['Users']
     const user = {
