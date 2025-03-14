@@ -8,7 +8,7 @@
   "host": "cse-341-project1-akdu.onrender.com",
   "basePath": "/",
   "schemes": [
-    "https"
+    "https, http"
   ],
   "paths": {
     "/": {
